@@ -1,0 +1,14 @@
+.container{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container h1{
+  font-size: 65px;
+  font-family: Roboto;
+}
+
+.container .text{
+  font-size: 48px;
+  color: rgb(12, 172, 172);
+}
