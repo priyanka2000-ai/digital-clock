@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import './style.css'
 const Clock = () => {
   // State to hold the current time string
   const [time, setTime] = useState(new Date().toLocaleTimeString());
@@ -21,7 +21,7 @@ const Clock = () => {
   }, []); // Empty dependency array ensures this effect runs only once after initial render
 
   return (
-    <div>
+    <div className='textcolor'>
         <p>I am parent</p>
       <h1>Count {count}</h1>
 
